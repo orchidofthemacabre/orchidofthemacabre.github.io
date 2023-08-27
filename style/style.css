@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: white;
 }
 
 h1 {
@@ -10,10 +10,13 @@ p, h2 {
 	color: red;
 }
 
+.image {
+	width: 30%;
+	height: 30%;
+}
+
 .image_container {
 	position: relative;
-	width: 50%;
-	max-width: 300px;
 }
 
 .overlay {
@@ -21,13 +24,12 @@ p, h2 {
 	bottom: 0;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.5);
-	color: green;
-	width: 100%;
+	width: 300px;
 	transition: .5s ease;
 	opacity: 0;
 	color: white;
 	font-size: 20px;
-	padding: 20px;
+	padding: 100px;
 	text-align: center;
 }
 
